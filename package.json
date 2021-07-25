@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "aberlaas": "1.24.1"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "files": ["lib/*.js"],
+  "license": "MIT",
+  "main": "lib/main.js",
+  "name": "earthporn",
+  "scripts": {
+    "ci": "./scripts/ci",
+    "husky:precommit": "./scripts/husky-precommit",
+    "lint": "./scripts/lint",
+    "lint:fix": "./scripts/lint-fix",
+    "release": "./scripts/release",
+    "test": "./scripts/test",
+    "test:watch": "./scripts/test-watch"
+  },
+  "version": "0.0.1"
+}
