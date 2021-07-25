@@ -1,20 +1,28 @@
 {
+  "dependencies": {
+    "norska": "2.6.0",
+    "norska-theme-search-infinite": "1.0.4"
+  },
   "devDependencies": {
     "aberlaas": "1.24.1"
   },
   "engines": {
     "node": ">=14.17.0"
   },
-  "files": ["lib/*.js"],
+  "files": [],
   "license": "MIT",
   "main": "lib/main.js",
   "name": "earthporn",
   "scripts": {
+    "build": "./scripts/build",
+    "build:prod": "./scripts/build-prod",
     "ci": "./scripts/ci",
+    "cms": "./scripts/cms",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
+    "serve": "./scripts/serve",
     "test": "./scripts/test",
     "test:watch": "./scripts/test-watch"
   },
