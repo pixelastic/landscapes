@@ -1,1 +1,6 @@
 @import 'theme:style.css';
+
+.bg-theme {
+  @apply bg-blue-9;
+}
+

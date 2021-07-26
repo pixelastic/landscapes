@@ -1,0 +1,9 @@
+block content
+  .pt-1.px-1.pb-01.black
+    a(href="{{picture.full}}" target="_blank")
+      img.object-cover(class="{{img.cssClass}}" src="{{img.src}}" data-src="{{img.dataSrc}}" data-uuid="{{img.dataUuid}}" width="{{img.width}}" height="{{img.height}}")
+    a.__hitLink.ext-2.pt-01.block.transition-colors.hover_blue(href="{{url}}" target="_blank") {{{title}}}
+    .block.flex.flex-main-end.py-01
+      .gray-6.text-1 
+        | by 
+        a.inline.hover_blue.underline.transition-colors(href="https://www.reddit.com/user/{{author.name}}") /u/{{{author.name}}}

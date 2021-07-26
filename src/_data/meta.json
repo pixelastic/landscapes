@@ -1,6 +1,6 @@
 {
-  "description": "Your website description. You can overwrite it in any pug file",
-  "title": "Default page title. You can overwrite it in any pug file",
-  "twitter": "yourusername",
-  "productionUrl": "http://www.your-production-url.com/"
+  "description": "Explore amazing images of light and landscape",
+  "title": "EarthPorn Search",
+  "twitter": "pixelastic",
+  "productionUrl": "https://projects.pixelastic.com/earthporn/"
 }
