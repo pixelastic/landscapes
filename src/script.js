@@ -7,12 +7,9 @@ const lazyloadHelper = require('norska/frontend/algolia/helpers/lazyload');
     placeholder: 'Search for any place, landscape or country',
     transforms: {
       img(item) {
-        if (!item.displayPicture) {
-          return false;
-        }
         const originUrl = item.picture.preview;
         const options = {
-          imoen: item.displayPicture,
+          imoen: item.picture,
           uuid: item.objectID,
           cacheBusting: false,
         };
