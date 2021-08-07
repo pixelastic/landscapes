@@ -4,6 +4,9 @@ html {
   .bg-theme {
     @apply bg-blue-9;
   }
+  .from-theme {
+    @apply from-blue-9;
+  }
 
   /* No more filters at the moment */
   .__filters {
