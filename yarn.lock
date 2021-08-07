@@ -10316,10 +10316,10 @@ norska-theme-default@^2.4.1:
   resolved "https://registry.npmjs.org/norska-theme-default/-/norska-theme-default-2.4.1.tgz#1218a73b49c73afb387ec311b84bc543abf1a220"
   integrity sha512-eSJhC2hmoSjD0K5CXYBn+KSlWPqp44O7RHumHChON4R7K93RcOJsPiLs9fBmguhBYqqW3lE9kTKje4zA2OJyEA==
 
-norska-theme-search-infinite@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/norska-theme-search-infinite/-/norska-theme-search-infinite-1.1.0.tgz#5f9d1e5a1c913f707ecd94204bd36253a510c2aa"
-  integrity sha512-YYIINM3cLGSTVYgd1XXpExQIQ+C5ynm1dzN6Xu1UN55ynnbrC63526uzL09XlDbFkSZCmCjiLSohmdj45RkDJw==
+norska-theme-search-infinite@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/norska-theme-search-infinite/-/norska-theme-search-infinite-1.1.1.tgz#9f22bc3dd308bcdab5512a2b09ef3586abc9e29d"
+  integrity sha512-Ti2MQlRJ4oPjWUmsBTXrZgbQlR7cn9naIOgRipxs4ZENnPQ1gvbQZxcjINeHzgMBR4fbQjkoQbfbHmbxYwZ4kQ==
 
 norska@2.7.0:
   version "2.7.0"
