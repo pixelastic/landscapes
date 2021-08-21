@@ -1,5 +1,5 @@
 const theme = require('norska/theme');
-const lazyloadHelper = require('norska/frontend/algolia/helpers/lazyload');
+const lazyloadHelper = require('norska/frontend/algolia/lazyload');
 
 (async () => {
   await theme.init({
